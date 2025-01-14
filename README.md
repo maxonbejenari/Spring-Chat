@@ -12,7 +12,6 @@ This is a real-time chat application built using Spring Boot and WebSockets. It 
 ## Prerequisites
 - JDK 11 or higher
 - Maven
-- Node.js and npm (for front-end dependencies)
 
 ## Installation
 
@@ -30,42 +29,10 @@ This is a real-time chat application built using Spring Boot and WebSockets. It 
     ```sh
     mvn spring-boot:run
     ```
-
-### Frontend
-1. Navigate to the `frontend` directory:
-    ```sh
-    cd frontend
-    ```
-2. Install dependencies (if applicable):
-    ```sh
-    npm install
-    ```
-3. Build and run the front-end code:
-    ```sh
-    npm start
-    ```
-
+    
 ## Usage
 1. Open your browser and navigate to `http://localhost:8080`.
 2. Enter a username and start chatting!
-
-## Project Structure
-```plain
-spring-chat/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/yourcompany/chat/
-│   │   └── resources/
-│   │       └── application.properties
-│   └── test/
-├── frontend/
-│   ├── index.html
-│   ├── styles.css
-│   └── app.js
-├── pom.xml
-└── README.md
-```
 
 ## Dependencies
 1. Spring Boot
